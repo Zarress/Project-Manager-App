@@ -18,7 +18,7 @@ export default function ProjectTasks({
   return (
     <>
       <h2 className="text-2xl font-bold text-stone-600">Tasks</h2>
-      <div className="flex justify-between">
+      <div className="flex justify-between gap-2">
         <input
           value={enteredTask}
           type="text"

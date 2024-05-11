@@ -59,7 +59,7 @@ function App() {
   }
 
   return (
-    <main className="h-screen flex">
+    <main className="flex">
       <ProjectMenu
         showProjectForm={handleShowProjectAddForm}
         projectList={projectList}
