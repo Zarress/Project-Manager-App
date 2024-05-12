@@ -32,7 +32,7 @@ export default function ProjectDetails({
           </h1>
           <button
             onClick={showConfirmationModal}
-            className="px-4 py-2 text-xs md:text-base rounded-md bg-stone-200 text-stone-700 hover:bg-stone-300"
+            className="px-4 py-2 font-medium text-xs md:text-base rounded-md bg-stone-200 text-stone-700 hover:bg-stone-300"
           >
             Delete project
           </button>

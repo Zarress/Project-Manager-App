@@ -31,7 +31,7 @@ export default function ProjectTasks({
         />
         <button
           onClick={handleAddTask}
-          className="px-4 py-2 text-xs md:text-base rounded-md bg-stone-200 text-stone-700 hover:bg-stone-300"
+          className="px-4 py-2 text-xs font-medium md:text-base rounded-md bg-stone-200 text-stone-700 hover:bg-stone-300"
         >
           + Add Task
         </button>

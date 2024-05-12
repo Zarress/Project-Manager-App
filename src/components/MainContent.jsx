@@ -19,7 +19,7 @@ export default function MainContent({
   }
 
   return (
-    <main className="mt-16 px-4 w-full absolute md:static z-0">
+    <main className="mt-20 px-4 w-full absolute md:static z-0">
       {mode === "no-project-selected" && (
         <section className="text-center flex flex-col gap-6 max-w-lg mx-auto">
           <img

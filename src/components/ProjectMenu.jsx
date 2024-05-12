@@ -34,17 +34,17 @@ export default function ProjectMenu({
   let cssClasses = "";
   let toggleButtonClasses = "";
   if (expanded) {
-    cssClasses = " px-8 py-16 w-72 mr-screen md:w-72";
+    cssClasses = " px-8 w-72 mr-screen md:w-72";
 }
   else {
-    cssClasses = " p-0 w-0";
+    cssClasses = " w-0";
   } 
 
   return (
     <aside className="flex z-10">
       <div
         className={
-          "bg-stone-900 text-stone-50 rounded-r-xl overflow-x-hidden h-screen" +
+          "bg-stone-900 py-16 text-stone-50 rounded-r-xl overflow-x-hidden h-screen transition-all duration-300" +
           cssClasses
         }
       >
