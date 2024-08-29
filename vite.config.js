@@ -1,8 +1,9 @@
 import { defineConfig } from 'vite'
-base: "/Project-Manager-App"
+
 import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/Project-Manager-App",
   plugins: [react()],
 })
