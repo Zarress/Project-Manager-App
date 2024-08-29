@@ -23,7 +23,7 @@ export default function MainContent({
       {mode === "no-project-selected" && (
         <section className="text-center flex flex-col gap-6 max-w-lg mx-auto">
           <img
-            src="/logo.png"
+            src="logo.png"
             alt="No projects"
             className="w-32 m-auto"
           ></img>
